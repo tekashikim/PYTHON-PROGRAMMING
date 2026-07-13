@@ -1,10 +1,24 @@
-colors=["Blue","Red","Green"]
-print("Original list:",colors)
-colors.append("Orange")
-print("After adding Orange:",colors)
-colors.remove("Red")
-print("After removing Red:",colors)
-colors[1]="White"
-print("After updating Green to White:",colors)
+# list.py
+# This program demonstrates how to use lists in Python.
+
+# Creating a list
+fruits = ["Apple", "Banana", "Orange"]
+
+print("Original list:", fruits)
+
+# Adding an item
+fruits.append("Mango")
+print("After adding Mango:", fruits)
+
+# Removing an item
+fruits.remove("Banana")
+print("After removing Banana:", fruits)
+
+# Updating an item
+fruits[1] = "Grapes"
+print("After updating Orange to Grapes:", fruits)
+
+# Looping through the list
 print("\nItems in the list:")
-print(colors)
+for fruit in fruits:
+    print(fruit)
