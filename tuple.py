@@ -1,0 +1,7 @@
+colors=("Red","White","Blue","Pink")
+print("Tuple:",colors)
+print("First color:",colors[0])
+print("Second color:",colors[1])
+print("Third color:",colors[2])
+print("Fourth color:",colors[3])
+print("All colors:",colors)
